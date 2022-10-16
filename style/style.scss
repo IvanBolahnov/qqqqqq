@@ -1,0 +1,55 @@
+:root {
+    --Primary-color: #070707;
+    --Primary-light-color: #e7e7e7;
+    --Secondary-color: #F01313;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background: var(--Primary-color);
+    color: var(--Primary-light-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.quote {
+    q {
+        font-style: italic;
+        font-weight: 300;        
+    }
+    
+    cite {
+        font-weight: 600;
+        font-size: .7em;
+    }
+}
+
+h1 {
+    font-size: 1.7em;
+    font-style: italic;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+p::first-letter {
+    margin-left: 10px;
+    font-size: 1.6rem;
+}
